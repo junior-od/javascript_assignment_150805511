@@ -1,0 +1,89 @@
+.back{
+	position: absolute;
+	top:0;
+	background-image:url("../images/background_image.jpg");
+	background-size:cover;
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	background-color: black;
+	width:100%;
+	height:900px;
+	opacity: 0.85;
+}
+
+.complete_survey{
+	color:#ff3333;
+	text-align: center;
+	font-size: 40px;
+}
+
+.form_style{
+	text-align: center;
+}
+
+label{
+	color:white;
+}
+
+input:focus{
+	outline: none;
+}
+
+select:focus{
+	outline: none;
+}
+
+.age{
+	visibility: hidden;
+}
+
+.email{
+	visibility: hidden;
+	
+}
+
+.relationship{
+	visibility: hidden;
+	
+}
+
+.message{
+	visibility: hidden;
+	
+}
+
+.school_occupation{
+	visibility: hidden;
+	
+}
+
+.phone_number{
+	visibility: hidden;
+	
+}
+
+.gender{
+	visibility: hidden;
+	
+}
+
+.country{
+	visibility: hidden;
+	
+}
+
+.dob{
+	visibility: hidden;
+	
+}
+
+.input_size{
+	width: 30%;
+}
